@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap");
+
+body {
+  font-family: "Space Mono", monospace, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.navBar {
+  color: grey;
+  font-size: 2rem;
+  font-family: "Space Mono";
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+.menu {
+  display: flex;
+  background-color: white;
+  width: 45rem;
+  justify-content: space-evenly;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1433788273174-662fea56182b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+}
+
+.textImage {
+  color: white;
+  font-size: 4rem;
+  font-family: "Space Mono";
+  margin-left: 5%;
+}
+
+.barNav {
+  color: grey;
+  font-family: "Space Mono";
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.head2 {
+  color: white;
+  background-color: #566d98;
+  transform: rotate(-5deg);
+}
+
+.button {
+  width: 15rem;
+}
