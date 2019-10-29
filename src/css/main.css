@@ -1,63 +1,155 @@
+/*------------IMPORT---------------*/
 @import url("https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap");
+/*------------DEBUG---------------*/
+[debug],
+[debug] * {
+  outline: solid 1px #9400ff;
+  box-shadow: none;
+  filter: none;
+}
+/*------------GLOBAL RULE---------------*/
+
+:root {
+  --black: black;
+  --blue: #566d98;
+  --white: white;
+  --grey: grey;
+}
 
 body {
   font-family: "Space Mono", monospace, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--black);
 }
 
-.navBar {
-  color: grey;
-  font-size: 2rem;
-  font-family: "Space Mono";
-  background-color: white;
+a {
+  color: black;
+  text-decoration: none;
+}
 
+/*------------NAVIGATION---------------*/
+header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 3rem;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  font-family: "Space Mono", monospace;
+}
+
+.logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  align-items: center;
 }
 
 .menu {
   display: flex;
-  background-color: white;
-  width: 45rem;
-  justify-content: space-evenly;
 }
 
-.header {
+.menu-items {
+  margin-right: 20px;
+}
+
+.cart-items {
+  position: relative;
   display: flex;
-  justify-content: flex-start;
+}
+
+.count {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  background-color: var(--blue);
+  display: flex;
   align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+/*-----------------HERO------------------*/
+.hero {
+  display: flex;
+  align-items: center;
+  height: 60vh;
   background-image: url("https://images.unsplash.com/photo-1433788273174-662fea56182b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 30rem;
 }
 
-.textImage {
-  color: white;
+.main-title {
+  color: var(--white);
   font-size: 4rem;
-  font-family: "Space Mono";
   margin-left: 5%;
 }
-
-.barNav {
-  color: grey;
-  font-family: "Space Mono";
-  font-size: 2rem;
-
+/*----------------------BANDEAU 1----------------*/
+.products {
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+}
+
+.products a {
+  color: var(--white);
 }
 
 .head2 {
-  color: white;
   background-color: #566d98;
   transform: rotate(-5deg);
 }
 
 .button {
-  width: 15rem;
+  margin-right: 1rem;
+}
+
+.far.fa-caret-square-right {
+  color: #566d98;
+}
+
+/*-------------------Products-----------------*/
+
+.selection {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.imageContainer {
+  height: 400px;
+  width: 400px;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productsOne {
+  margin: 1.5rem 1rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+p.discover {
+  display: flex;
+  justify-content: center;
+}
+
+.productsOne a {
+  border-bottom: 0.2rem solid var(--blue);
 }

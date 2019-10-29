@@ -7,31 +7,132 @@
     <title>Vinyl</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/22df0629d0.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-
+  <!---------------------------NAV----------------->
   <body>
-    <nav class="navBar">
-      <h1>Vinyl</h1>
-
-      <div>
+    <header>
+      <h1 class="logo">Vinyl</h1>
+      <nav>
         <ul class="menu">
-          <li><a>Collection</a></li>
-          <li><a>Products</a></li>
-          <li><a>Philosophy</a></li>
+          <li class="menu-items"><a href="#">Products</a></li>
+          <li class="menu-items"><a href="#">Hardware</a></li>
+          <li class="menu-items"><a href="#">Philosophy</a></li>
         </ul>
-      </div>
-    </nav>
+        <div class="cart-item">
+          <div class="count">2</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="10" cy="20.5" r="1" />
+            <circle cx="18" cy="20.5" r="1" />
+            <path
+              d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1"
+            />
+          </svg>
+        </div>
+      </nav>
+    </header>
 
-    <section class="header">
-      <p class="textImage">Listen and chill</p>
+    <!---------------------HERO----------------------->
+    <section class="hero">
+      <h2 class="main-title">Listen and chill</h2>
     </section>
+    <!-------------------------------------------------------->
+    <section class="products">
+      <h2 class="head2"><a href="#">Products</a></h2>
 
-    <nav class="barNav">
-      <h2 class="head2"><a>Collection</a></h2>
+      <div class="button">
+        See More
+        <a href="#"><i class="far fa-caret-square-right"></i></a>
+      </div>
+    </section>
+    <!-----------------------Products------------------------->
+    <section class="selection">
 
-      <div class="button">See More</div>
-    </nav>
+      <div class="productsOne">
+        <div class="imageContainer">
+            <img
+            src="https://thevinylfactory.com/wp-content/uploads/2017/04/soulwax-from-deewee.png"
+            alt="album cover"
+          />
+        </div>
+        <p class="description">Soulwax</br>"Is It Always Binary"</br>Dec, 2017</p>
+        <p class="discover"><a href="#">Discover</a></p>
+      </div>
 
+      <div class="productsOne">
+        <div class="imageContainer">
+            <img
+            src="https://thevinylfactory.com/wp-content/uploads/2013/05/Risingson_massive-attack.png"
+            alt="album cover"
+          />
+        </div>
+        <p class="description">Massive Attack </br>"Risingson"</br>Jul, 1997</p>
+        <p class="discover"><a href="#">Discover</a></p>
+      </div>
+
+      <div class="productsOne">
+        <div class="imageContainer">
+            <img
+            src="https://thevinylfactory.com/wp-content/uploads/2016/10/3312dd11b189b2ce38019ba2753242a2.jpg"
+            alt="album cover"
+          />
+        </div>
+        <p class="description">Gesaffelstein</br>"Aleph"</br>Oct, 2013</p>
+        <p class="discover"><a href="#">Discover</a></p>
+      </div>
+
+      <div class="productsOne">
+        <div class="imageContainer">
+            <img
+            src="https://culturefactory.fr/8182-large_default/ice-cube-amerikkka-s-most-wanted-vinyl.jpg"
+            alt="album cover"
+          />
+        </div>
+          <p class="description">Ice Cube</br>"AmeriKKKa's Most Wanted"</br>Mai, 1993</p>
+          <p class="discover"><a href="#">Discover</a></p>
+        </div>
+
+        <div class="productsOne">
+          <div class="imageContainer">
+              <img
+              src="https://images-na.ssl-images-amazon.com/images/I/51hPSyv9hYL._SX522_.jpg"
+              alt="album cover"
+            />
+          </div>
+        <p class="description">Pink Floyd</br>"Dark Side Of The Moon"</br>Mar, 1973</p>
+        <p class="discover"><a href="#">Discover</a></p>
+      </div>
+
+      <div class="productsOne">
+          <div class="imageContainer">
+              <img
+              src="https://exclaim.ca//images/spacemen3_2.jpg"
+              alt="album cover"
+            />
+          </div>
+        <p class="description">Spacemen 3</br>"Dreamweapon"</br>Oct, 1990</p>
+        <p class="discover">
+          <a href="#">Discover</a>
+        </p>
+      </div>
+    </section>
+    <!------------------------HARDWARE--------------------------->
+    <section>
+
+    </section>
     <script src="./js/main.js"></script>
   </body>
 </html>
