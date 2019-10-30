@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <!---------------------------NAV----------------->
+<!---------------------------NAV---------------------------->
   <body>
     <header>
       <h1 class="logo">Vinyl</h1>
@@ -45,94 +45,145 @@
       </nav>
     </header>
 
-    <!---------------------HERO----------------------->
+<!--------------------------HERO---------------------------->
+
     <section class="hero">
       <h2 class="main-title">Listen and chill</h2>
     </section>
-    <!-------------------------------------------------------->
-    <section class="products">
-      <h2 class="head2"><a href="#">Products</a></h2>
 
-      <div class="button">
-        See More
-        <a href="#"><i class="far fa-caret-square-right"></i></a>
-      </div>
-    </section>
-    <!-----------------------Products------------------------->
-    <section class="selection">
+<!-----------------------COLLECTION------------------------->
 
-      <div class="productsOne">
-        <div class="imageContainer">
-            <img
-            src="https://thevinylfactory.com/wp-content/uploads/2017/04/soulwax-from-deewee.png"
-            alt="album cover"
-          />
-        </div>
-        <p class="description">Soulwax</br>"Is It Always Binary"</br>Dec, 2017</p>
-        <p class="discover"><a href="#">Discover</a></p>
-      </div>
-
-      <div class="productsOne">
-        <div class="imageContainer">
-            <img
-            src="https://thevinylfactory.com/wp-content/uploads/2013/05/Risingson_massive-attack.png"
-            alt="album cover"
-          />
-        </div>
-        <p class="description">Massive Attack </br>"Risingson"</br>Jul, 1997</p>
-        <p class="discover"><a href="#">Discover</a></p>
+    <section class="collection">
+      <div class="sectionTopBar">
+        <a href="#"><h2 class="sectionProducts">Products</h2></a>
+        <a class="seeMore" href="#">See more
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M5 12h13M12 5l7 7-7 7" />
+        </svg>
+        </a>
       </div>
 
-      <div class="productsOne">
-        <div class="imageContainer">
-            <img
-            src="https://thevinylfactory.com/wp-content/uploads/2016/10/3312dd11b189b2ce38019ba2753242a2.jpg"
-            alt="album cover"
-          />
+      <div class="collectionItems">
+<!------------------------Item 1---------------------------->
+        <div class="collectionItem">
+          <img src="../src/images/soulwax-from-deewee.png" alt="album cover"/>
+          <div class="collectionInfo">
+            <h3>Soulwax</br>"Is It Always Binary"</br>Dec, 2017</h3>
+            <a href="#">discover</a>
         </div>
-        <p class="description">Gesaffelstein</br>"Aleph"</br>Oct, 2013</p>
-        <p class="discover"><a href="#">Discover</a></p>
-      </div>
-
-      <div class="productsOne">
-        <div class="imageContainer">
-            <img
-            src="https://culturefactory.fr/8182-large_default/ice-cube-amerikkka-s-most-wanted-vinyl.jpg"
-            alt="album cover"
-          />
         </div>
-          <p class="description">Ice Cube</br>"AmeriKKKa's Most Wanted"</br>Mai, 1993</p>
-          <p class="discover"><a href="#">Discover</a></p>
-        </div>
-
-        <div class="productsOne">
-          <div class="imageContainer">
-              <img
-              src="https://images-na.ssl-images-amazon.com/images/I/51hPSyv9hYL._SX522_.jpg"
-              alt="album cover"
-            />
+<!------------------------Item 2---------------------------->
+        <div class="collectionItem">
+          <img src="../src/images/Risingson_massive-attack.png" alt="album cover"/>
+          <div class="collectionInfo">
+            <h3 class="description">Massive Attack </br>"Risingson"</br>Jul, 1997</h3>
+            <a href="#">discover</a>
           </div>
-        <p class="description">Pink Floyd</br>"Dark Side Of The Moon"</br>Mar, 1973</p>
-        <p class="discover"><a href="#">Discover</a></p>
-      </div>
+        </div>
 
-      <div class="productsOne">
-          <div class="imageContainer">
-              <img
-              src="https://exclaim.ca//images/spacemen3_2.jpg"
-              alt="album cover"
-            />
+<!------------------------Item 3---------------------------->
+        <div class="collectionItem">
+          <img src="../src/images/3312dd11b189b2ce38019ba2753242a2.jpg" alt="album cover"/>
+          <div class="collectionInfo">
+            <h3 class="description">Gesaffelstein</br>"Aleph"</br>Oct, 2013</h3>
+            <a href="#">discover</a>
           </div>
-        <p class="description">Spacemen 3</br>"Dreamweapon"</br>Oct, 1990</p>
-        <p class="discover">
-          <a href="#">Discover</a>
-        </p>
+        </div>
+
+<!------------------------Item 4---------------------------->
+        <div class="collectionItem">
+            <img src="../src/images/ice-cube-amerikkka-s-most-wanted-vinyl.jpg" alt="album cover"/>
+            <div class="collectionInfo">
+              <h3 class="description">Ice Cube</br>"AmeriKKKa's Most Wanted"</br>Mai, 1993</h3>
+              <a href="#">discover</a>
+            </div>
+        </div>
+
+<!----------------------Item 5----------------------------->
+        <div class="collectionItem">
+            <img src="../src/images/51hPSyv9hYL._SX522_.jpg" alt="album cover"/>
+            <div class="collectionInfo">
+              <h3 class="description">Pink Floyd</br>"Dark Side Of The Moon"</br>Mar, 1973</h3>
+              <a href="#">discover</a>
+            </div>
+        </div>
+
+<!----------------------Item 6----------------------------->
+        <div class="collectionItem">
+            <img src="../src/images/dreamweapon.jpg" alt="album cover"/>
+            <div class="collectionInfo">
+              <h3 class="description">Spacemen 3</br>"Dreamweapon"</br>Oct, 1990</h3>
+              <a href="#">discover</a>
+            </div>
+        </div>
       </div>
     </section>
-    <!------------------------HARDWARE--------------------------->
-    <section>
 
+<!----------------------HARDWARE----------------------------->
+
+    <section class="hardware">
+<!----------------------Item 1------------------------------->
+      <div class="sectionTopBar">
+        <a href="#"><h4>Hardware</h4><p>Hardware</br>du</br>moment</p></a>
+      </div>
+      <div class="hardwareContainer">
+        <div class="imageHardwareContainer">
+          <img src="../src/images/platineVinyl2.jpg" alt="photo hardware">
+        </div>
+        <div class="imageHardwareContainer">
+          <img src="../src/images/platineVinyl.jpg" alt="photo hardware">
+        </div>
+        <div class="imageHardwareContainer">
+          <img src="../src/images/platine3.jpg" alt="photo hardware">
+        </div>
+        <div class="imageHardwareContainer">
+          <img src="../src/images/HiFi2.jpg" alt="photo hardware">
+        </div>
+        <div class="imageHardwareContainer">
+          <img src="../src/images/hiFi.jpg" alt="photo hardware">
+        </div>
+        <div class="imageHardwareContainer">
+          <img src="../src/images/Hifi3.jpg" alt="photo hardware">
+        </div>
+      </div>
+      <p class="browse"><a href="#">Browse All</a></p>
     </section>
+
+<!-----------------------PHILOSOPHY--------------------------->
+
+    <section class="philosophy">
+  <div class="textPhilosophy">
+    <h5>Our Philosophy</h5>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</br>
+      Facere animi natus quaerat? Optio ea neque provident voluptates debitis iure.</br>
+      Impedit unde labore sint sapiente voluptas voluptatem.</br>
+      Facilis laudantium aspernatur beatae.</p>
+    <a href="#">Read More</a>
+  </div>
+    </section>
+
+<!-------------------------NEWSLETTER------------------------------->
+
+    <section class="newsLetter">
+      <p>Sign up for our newsletter and stay informed</p>
+      <form>
+        <input email="text" placeholder="you@gmail.com" />
+        <a class="button"href="#"><svg class="svg"xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></a>
+      </form>
+    </section>
+
+<!--------------------------FOOTER---------------------------->
+  <section></section>
     <script src="./js/main.js"></script>
   </body>
 </html>
