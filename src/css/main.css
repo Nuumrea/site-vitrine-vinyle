@@ -208,7 +208,7 @@ nav {
   margin: 1rem;
   padding-bottom: 2rem;
   background-image: url("../images/asfalt-light.png");
-  background-color: #8d90b0;
+  background-color: #bbc4dd;
 }
 
 .hardwareBadge {
@@ -354,7 +354,7 @@ form {
   align-items: center;
   justify-content: space-between;
   background-image: url("../images/asfalt-light.png");
-  background-color: #8d90b0;
+  background-color: #bbc4dd;
   margin: 1rem;
   color: var(--white);
 }
