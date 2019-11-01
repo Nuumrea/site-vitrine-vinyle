@@ -17,13 +17,13 @@
     <header>
       <div class="logoTitle">
         <h1 class="logo">Vinyl</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="3"></circle></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
       </div>
       <nav>
         <ul class="menu">
-          <li class="menu-items"><a href="#">Products</a></li>
-          <li class="menu-items"><a href="#">Hardware</a></li>
-          <li class="menu-items"><a href="#">Philosophy</a></li>
+          <li class="menu-items"><a href="#products">Products</a></li>
+          <li class="menu-items"><a href="#hardware">Hardware</a></li>
+          <li class="menu-items"><a href="#philosophy">Philosophy</a></li>
         </ul>
         <div class="cart-item">
           <div class="count">2</div>
@@ -45,7 +45,16 @@
             />
           </svg>
         </div>
-        <div class="menuAlternatif"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div>
+        <div class="menuAlternatif">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          <div>
+              <ull id="menuAlternatifOnClick" class=" menuAlternatifOnClick">
+                <li class="onClickMenu"><a href="#products">Products</a></li>
+                <li class="onClickMenu"><a href="#hardware">Hardware</a></li>
+                <li class="onClickMenu"><a href="#philosophy">Philosophy</a></li>
+              </ull>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -57,7 +66,7 @@
 
 <!-----------------------COLLECTION------------------------->
 
-    <section class="collection">
+    <section id="products" class="collection">
       <div class="sectionTopBar">
         <a href="#"><h2 class="sectionProducts">Products</h2></a>
         <a class="seeMore" href="#">See more
@@ -135,7 +144,7 @@
 
 <!----------------------HARDWARE----------------------------->
 
-    <section class="hardware">
+    <section id="hardware" class="hardware">
 <!----------------------Item 1------------------------------->
       <div class="sectionTopBar">
         <a href="#"><h4 class="sectionProducts">Hardware</h4>
@@ -162,7 +171,7 @@
 
 <!-----------------------PHILOSOPHY--------------------------->
 
-    <section class="philosophy">
+    <section id="philosophy" class="philosophy">
   <div class="textPhilosophy">
     <h5>Our Philosophy</h5>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</br>
